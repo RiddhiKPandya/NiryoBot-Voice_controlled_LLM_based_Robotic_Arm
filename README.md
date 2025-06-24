@@ -1,8 +1,10 @@
 ** Instructions **
+
 Run all the codes in the same order after connecting to the Ned Niryo Robotic Arm.
 Make sure to change the IP address 10.10.10.10 to your specific robot's IP.
 
 ** Code Overview **
+
 00calibration.py → Manually calibrates the workspace by accessing the 4 corners and the center for accuracy.
 
 01yolomodel.py → Detects the color using the HSV scale and identifies the object using the YOLOv8 model.
